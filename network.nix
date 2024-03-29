@@ -5,6 +5,7 @@
 {
   environment.systemPackages = with pkgs; [
     arping
+    arpoison
     atftp
     bandwhich
     crackmapexec
@@ -16,11 +17,13 @@
     ncftp
     netcat-gnu
     netdiscover
+    netexec
     nload
     nuttcp
     putty
     pwnat
     responder
+    route-graph
     rustcat
     sshping
     sslh
